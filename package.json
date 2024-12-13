@@ -4,9 +4,9 @@
   "description": "",
   "main": "backend/server.js",
   "scripts": {
-    "dev": "NODE_ENV=development npx nodemon backend/server.js",
-    "start": "NODE_ENV=production node backend/server.js",
-    "build": "npm install && npm install --include-dev --prefix frontend && npm run build --prefix frontend && npm prune"
+    "dev": "set NODE_ENV=development npx nodemon backend/server.js",
+    "start": "set NODE_ENV=production node backend/server.js",
+    "build": "npm install --include=dev && npm install --include=dev --save --prefix frontend && npm run build --prefix frontend"
   },
   "keywords": [],
   "author": "",
