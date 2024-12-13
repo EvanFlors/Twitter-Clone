@@ -6,8 +6,7 @@
   "scripts": {
     "dev": "set NODE_ENV=development npx nodemon backend/index.js",
     "start": "set NODE_ENV=production node backend/index.js",
-    "build": "npm install --include=dev && npm install --include=dev --save --prefix frontend && npm run build --prefix frontend",
-    ""
+    "build": "npm install --include=dev && npm install --include=dev --save --prefix frontend && npm run build --prefix frontend"
   },
   "keywords": [],
   "author": "",
