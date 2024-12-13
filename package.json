@@ -7,7 +7,6 @@
     "dev": "set NODE_ENV=development npx nodemon backend/server.js",
     "start": "set NODE_ENV=production node backend/server.js",
     "build": "npm install --include=dev && npm install --include=dev --save --prefix frontend && npm run build --prefix frontend",
-    "vercel-build": "npm install --include=dev && npm install --include=dev --save --prefix frontend && npm run build --prefix frontend"
   },
   "keywords": [],
   "author": "",
